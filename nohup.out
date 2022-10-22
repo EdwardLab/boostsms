@@ -1,0 +1,167 @@
+  File "susms.py", line 31
+    open(f"sms/{sunumber}.user", "w")
+                              ^
+SyntaxError: invalid syntax
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: 'server.xingyujie.xyz:2200'. You may need to add 'server.xingyujie.xyz' to ALLOWED_HOSTS.
+Bad Request: /
+[07/Aug/2022 07:59:57] "GET / HTTP/1.1" 400 61829
+Invalid HTTP_HOST header: 'server.xingyujie.xyz:2200'. You may need to add 'server.xingyujie.xyz' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[07/Aug/2022 07:59:59] "GET /favicon.ico HTTP/1.1" 400 61756
+/root/susms/susms/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+August 07, 2022 - 07:59:55
+Django version 3.2.14, using settings 'susms.settings'
+Starting development server at http://0.0.0.0:2200/
+Quit the server with CONTROL-C.
+Traceback (most recent call last):
+  File "manage.py", line 22, in <module>
+    main()
+  File "manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.7/dist-packages/django/core/management/__init__.py", line 419, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.7/dist-packages/django/core/management/__init__.py", line 363, in execute
+    settings.INSTALLED_APPS
+  File "/usr/local/lib/python3.7/dist-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python3.7/dist-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python3.7/dist-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/susms/susms/settings.py", line 28
+    ALLOWED_HOSTS = ['127.0.0.1','154.12.37.151','xingyujie.xyz','anika.download'，'susms.xingyujie.xyz']
+                                                                                 ^
+SyntaxError: invalid character in identifier
+  File "susms.py", line 31
+    open(f"sms/{sunumber}.user", "w")
+                              ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "manage.py", line 22, in <module>
+    main()
+  File "manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.7/dist-packages/django/core/management/__init__.py", line 419, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.7/dist-packages/django/core/management/__init__.py", line 363, in execute
+    settings.INSTALLED_APPS
+  File "/usr/local/lib/python3.7/dist-packages/django/conf/__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python3.7/dist-packages/django/conf/__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python3.7/dist-packages/django/conf/__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/susms/susms/settings.py", line 28
+    ALLOWED_HOSTS = ['127.0.0.1','154.12.37.151','xingyujie.xyz','anika.download'，'susms.xingyujie.xyz']
+                                                                                 ^
+SyntaxError: invalid character in identifier
+  File "susms.py", line 31
+    open(f"sms/{sunumber}.user", "w")
+                              ^
+SyntaxError: invalid syntax
+Watching for file changes with StatReloader
+[07/Aug/2022 08:16:18] "GET /send?number=4666657857&content=hi,there HTTP/1.1" 200 81
+Not Found: /favicon.ico
+[07/Aug/2022 08:16:19] "GET /favicon.ico HTTP/1.1" 404 2223
+[07/Aug/2022 08:16:50] "GET /send?number=4666657857&content=hi,there HTTP/1.1" 200 81
+[07/Aug/2022 08:17:37] "GET /send?number=4666657857&content=%E5%93%88%E5%B8%8C%E7%AB%9E%E7%8C%9C+v%20thomaswucy HTTP/1.1" 200 110
+Not Found: /favicon.ico
+[07/Aug/2022 08:17:38] "GET /favicon.ico HTTP/1.1" 404 2223
+Not Found: /send/number=123
+[07/Aug/2022 08:18:26] "GET /send/number=123 HTTP/1.1" 404 2237
+Not Found: /favicon.ico
+[07/Aug/2022 08:18:26] "GET /favicon.ico HTTP/1.1" 404 2223
+Not Found: /
+[07/Aug/2022 08:18:34] "GET / HTTP/1.1" 404 2172
+Not Found: /
+[07/Aug/2022 08:35:57] "GET / HTTP/1.1" 404 2172
+[07/Aug/2022 08:38:02] "GET /send?number=4666657857&content=hi,there HTTP/1.1" 200 81
+[07/Aug/2022 10:50:19] "GET /send?number=4666657857&content=hi,there HTTP/1.1" 200 81
+[07/Aug/2022 10:52:41] "GET /send?number=4666657857&content=hi,there HTTP/1.1" 200 81
+[07/Aug/2022 10:53:10] "GET /send?number=4666657857&content=hi%EF%BC%81%E5%8F%91%E8%87%AA%E9%80%9F%E6%8E%A8%E5%AE%89%E5%8D%93%E5%AE%A2%E6%88%B7%E7%AB%AF HTTP/1.1" 200 135
+[07/Aug/2022 10:53:59] "GET /send?number=4666657857&content=hi%EF%BC%81%E9%80%9F%E6%8E%A8%E5%AE%89%E5%8D%93app%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%BC%BA%E5%A4%A7%E8%BE%A3 HTTP/1.1" 200 144
+[07/Aug/2022 10:55:35] "GET /send?number=4666657857&content=%E5%85%B6%E5%AE%9E%E5%95%8A HTTP/1.1" 200 91
+[07/Aug/2022 10:55:40] "GET /send?number=4666657857&content=%E7%9C%9F%E7%9A%84%E5%BE%88%E7%89%9B%E9%80%BC%E4%BA%86 HTTP/1.1" 200 109
+[07/Aug/2022 10:55:47] "GET /send?number=4666657857&content=%E6%88%91%E8%A7%89%E5%BE%97%E5%93%88 HTTP/1.1" 200 97
+[07/Aug/2022 10:55:51] "GET /send?number=4666657857&content=%E6%88%91%E8%A7%89%E5%BE%97%E5%93%88 HTTP/1.1" 200 97
+[07/Aug/2022 10:56:55] "GET /send?number=4666657857&content=%E5%A4%9A%E4%B9%88%E7%94%B5%E8%84%91%E7%94%B5%E8%84%91%E5%A4%9A%E4%B9%85%E5%BF%85%E9%A1%BB%E9%92%88%E5%AF%B9%E4%BD%A0%E7%9A%84%E8%84%91%E8%A2%8B%E7%99%BD%E8%A1%80%E7%97%85%E7%BB%86%E8%83%9E%E4%BD%A0%E6%98%AF%E4%B8%8D%E6%98%AF%E5%BE%88%E5%96%9C%E6%AC%A2%E5%92%8C%E6%88%91%E5%B9%B6%E4%B8%8D%E4%BB%A3%E8%A1%A8%E8%B1%86%E7%93%A3%E6%9C%AC%E7%94%9F%E7%94%9F%E4%B8%96%E4%B8%96%E8%AF%A5%E5%85%AC%E5%8F%B8%E9%83%AD%E5%BE%B7%E7%BA%B2%E5%B0%84%E9%97%A8%E4%B8%8D%E4%B8%8D%E4%B8%AA%E5%BE%88%E5%A5%BD%E7%9A%84%E4%BD%8E%E5%8A%9F%E8%80%97%E8%BF%99%E4%B8%AA%E8%AE%BE%E5%A4%87%E5%92%8C%E8%BF%98%E6%98%AF%E4%B8%8D%E6%98%AF%E5%BE%88%E7%86%9F%E6%82%89%E6%9B%B4%E6%96%B0%E6%8D%A2%E4%BB%A3%E4%B8%8D%E5%BE%97%E4%B8%8D%E5%A5%BD%E5%A4%9A%E5%A5%BD%E5%A4%9A%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D%E5%82%BB%E5%82%BB%E7%9A%84%E5%BE%88%E5%A4%9A%E5%BE%88%E5%A4%9A%E5%A5%B3%E7%9A%84%E5%A5%BD%E5%83%8F%E5%B0%B1%E6%98%AF%E8%9B%8B%E7%99%BD%E8%B4%A8%E6%9C%AC%E8%BA%AB%E5%B0%B1%E6%98%AF%E4%BD%A0%E6%83%B3%E4%B8%8D%E5%88%B0%E5%A5%BD%E7%9A%84%E9%B8%A1%E8%9B%8B%E9%B8%A1%E8%9B%8B%E5%A5%BD%E5%A4%9A%E5%A5%BD%E5%A4%9A%E6%B4%BB%E7%94%9F%E7%94%9F%E7%9A%84%E8%BF%98%E6%98%AF%E5%96%9C%E6%AC%A2%E7%9A%84%E8%AF%9D%E8%AF%B4%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%A7%94%E4%B9%A6%E8%AE%B0%E7%8E%8B%E5%AD%90%E4%B8%8A%E6%98%AF%E4%B8%AA%E5%A5%BD%E4%BA%86%E5%8F%B6u%E5%A6%82373%E5%A5%BD%E5%A5%BD%E8%AF%BB%E8%AF%BB%E7%9A%8472%E6%B4%BB%E5%8A%A8%E5%92%8C%E6%96%87%E5%8C%96%E9%B8%A1%E5%B0%BE%E9%85%92%E5%BE%88%E5%A4%9A%E5%BE%88%E5%A4%9A%E5%BE%88%E5%A4%9A%E5%BE%88%E5%A4%9A%E5%BE%88%E5%A4%9A%E5%BE%88%E5%A5%BD%E7%9A%84%E5%91%B5%E5%91%B5 HTTP/1.1" 200 1117
+[07/Aug/2022 10:57:20] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:24] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:25] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:26] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:27] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:27] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:28] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:29] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:29] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:31] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:31] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:33] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:33] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:34] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:35] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:35] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:36] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:37] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:37] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:38] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:39] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:39] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:40] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:41] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:57:42] "GET /send?number=4666657857&content= HTTP/1.1" 200 73
+[07/Aug/2022 10:58:18] "GET /send?number=4666657857&content=hi HTTP/1.1" 200 75
+[07/Aug/2022 10:58:22] "GET /send?number=4666657857&content=%E8%A1%8C%E5%90%A7 HTTP/1.1" 200 85
+[07/Aug/2022 10:58:26] "GET /send?number=4666657857&content=%E5%9E%83%E5%9C%BE%E8%BD%AF%E4%BB%B6 HTTP/1.1" 200 97
+[07/Aug/2022 10:58:31] "GET /send?number=4666657857&content=%E6%88%91%E8%A7%89%E5%BE%97%E6%98%AF HTTP/1.1" 200 97
+[07/Aug/2022 10:58:40] "GET /send?number=4666657857&content=%E5%93%88%E5%93%88%E5%93%88%E5%93%88%E5%A6%88%E7%9A%84%E7%AC%91%E6%AD%BB%E6%88%91%E4%BA%86 HTTP/1.1" 200 133
+[07/Aug/2022 10:58:45] "GET /send?number=4666657857&content=yyds%E5%B1%9E%E4%BA%8E%E6%98%AF HTTP/1.1" 200 95
+[07/Aug/2022 10:58:49] "GET /send?number=4666657857&content=%E5%96%9D%E9%B8%A1%E6%B1%A4%E4%BA%86 HTTP/1.1" 200 97
+Not Found: /
+[07/Aug/2022 11:56:41] "GET / HTTP/1.1" 404 2172
+  File "susms.py", line 31
+    open(f"sms/{sunumber}.user", "w")
+                              ^
+SyntaxError: invalid syntax
+Watching for file changes with StatReloader
+Not Found: /
+[07/Aug/2022 11:57:00] "GET / HTTP/1.1" 404 2172
+  File "susms.py", line 31
+    open(f"sms/{sunumber}.user", "w")
+                              ^
+SyntaxError: invalid syntax
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[07/Aug/2022 11:58:45,157] - Broken pipe from ('171.218.49.15', 22413)
+
+[07/Aug/2022 12:00:18] "GET /send?number=4666657857&content=%E3%80%90Anika%20Premium%E3%80%91%E5%B0%8A%E6%95%AC%E7%9A%84%E7%94%A8%E6%88%B7%EF%BC%8C%E6%82%A8%E5%A5%BD%EF%BC%81%E6%84%9F%E8%B0%A2%E6%82%A8%E8%B4%AD%E4%B9%B0Anika%E4%BC%9A%E5%91%98%EF%BC%8C%E6%9C%AC%E6%AC%A1%E6%93%8D%E4%BD%9C%E9%9C%80%E8%A6%81%E9%AA%8C%E8%AF%81%E7%A0%81%EF%BC%8C%E6%82%A8%E7%9A%84%E9%AA%8C%E8%AF%81%E7%A0%81%E6%98%AF222824%EF%BC%8C%E8%AF%B7%E5%8B%BF%E6%B3%84%E9%9C%B2%E7%BB%99%E4%BB%96%E4%BA%BA%E3%80%82 HTTP/1.1" 200 361
+[07/Aug/2022 12:01:45] "GET /send?number=4666657857&content=%E3%80%90Anika%20Premium%E3%80%91%E5%B0%8A%E6%95%AC%E7%9A%84%E7%94%A8%E6%88%B7%EF%BC%8C%E6%82%A8%E5%A5%BD%EF%BC%81%E6%84%9F%E8%B0%A2%E6%82%A8%E8%B4%AD%E4%B9%B0Anika%E4%BC%9A%E5%91%98%EF%BC%8C%E6%9C%AC%E6%AC%A1%E6%93%8D%E4%BD%9C%E9%9C%80%E8%A6%81%E9%AA%8C%E8%AF%81%E7%A0%81%EF%BC%8C%E6%82%A8%E7%9A%84%E9%AA%8C%E8%AF%81%E7%A0%81%E6%98%AF222824%EF%BC%8C%E8%AF%B7%E5%8B%BF%E6%B3%84%E9%9C%B2%E7%BB%99%E4%BB%96%E4%BA%BA%E3%80%82 HTTP/1.1" 200 361
+[07/Aug/2022 12:05:16] "GET /send?number=4666657857&content=%E3%80%90Anika%20Premium%E3%80%91%E5%B0%8A%E6%95%AC%E7%9A%84%E7%94%A8%E6%88%B7%EF%BC%8C%E6%82%A8%E5%A5%BD%EF%BC%81%E6%84%9F%E8%B0%A2%E6%82%A8%E8%B4%AD%E4%B9%B0Anika%E4%BC%9A%E5%91%98%EF%BC%8C%E6%9C%AC%E6%AC%A1%E6%93%8D%E4%BD%9C%E9%9C%80%E8%A6%81%E9%AA%8C%E8%AF%81%E7%A0%81%EF%BC%8C%E6%82%A8%E7%9A%84%E9%AA%8C%E8%AF%81%E7%A0%81%E6%98%AF807924%EF%BC%8C%E8%AF%B7%E5%8B%BF%E6%B3%84%E9%9C%B2%E7%BB%99%E4%BB%96%E4%BA%BA%E3%80%82 HTTP/1.1" 200 361
+[07/Aug/2022 12:06:41] "GET /send?number=4666657857&content=%E3%80%90Anika%20Premium%E3%80%91%E5%B0%8A%E6%95%AC%E7%9A%84%E7%94%A8%E6%88%B7%EF%BC%8C%E6%82%A8%E5%A5%BD%EF%BC%81%E6%84%9F%E8%B0%A2%E6%82%A8%E8%B4%AD%E4%B9%B0Anika%E4%BC%9A%E5%91%98%EF%BC%8C%E6%9C%AC%E6%AC%A1%E6%93%8D%E4%BD%9C%E9%9C%80%E8%A6%81%E9%AA%8C%E8%AF%81%E7%A0%81%EF%BC%8C%E6%82%A8%E7%9A%84%E9%AA%8C%E8%AF%81%E7%A0%81%E6%98%AF230636%EF%BC%8C%E8%AF%B7%E5%8B%BF%E6%B3%84%E9%9C%B2%E7%BB%99%E4%BB%96%E4%BA%BA%E3%80%82 HTTP/1.1" 200 361

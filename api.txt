@@ -1,0 +1,7 @@
+http://127.0.0.1:8000/infosms?number=7243115550&password=2294001xyj&send=123456&content=InfoSMS_TEST
+
+http://127.0.0.1:8000/send?number=123456&password=xingyujie2294001xyj&send=123456&content=hi
+
+http://127.0.0.1:8000/list?number=123456&password=xingyujie2294001xyj
+
+http://127.0.0.1:8000/clearmsg?number=123456&password=xingyujie2294001xyj
